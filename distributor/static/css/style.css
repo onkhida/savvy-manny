@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#head {
+    height: 100vh;
+}
+
+#picslide1{
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+}
+
+#picslide2{
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+}
+
+#picslide3{
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+}
+
+body {
+    overflow: auto;    
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trtitle {
+    position: absolute;
+    top: 120%;
+    left: 70%;
+}
+
+.trinfo {
+    position: absolute;
+    top: 130%;
+    left: 63%;
+    width: 30%;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    color: #ffffff;
+    /* border: 7px solid #ffffff; */
+    padding: 20px;
+
+}
+
+.punchline {
+    font-size: 25px;
+    text-align: center;
+    font-family: Cabin;
+}
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.trbutton {
+    position: absolute;
+    top: 175%;
+    left: 74%;
+}
+
+#trbutn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(3, 76, 110);
+}
+
+#trbutn:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 241, 241);
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(9, 168, 241);
+}
+
+#butn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+#butn:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: rgb(6, 161, 233);
+}
+
+.training {
+    background-color: #e9e3e3;
+    height: 100vh;
+    top: 100vh;
+    border-top: 3px solid rgb(3, 76, 110);
+    border-bottom: 3px solid rgb(3, 76, 110);
+}
+
+#tr {
+    height: 100vh;
+    width: 60vw;
+    clip-path: polygon(0 0, 0 98.5vh, 60vw 98.5vh, 50vw 0vh);
+}
+
+#tpic {
+    height: 100vh;
+    top: 100vh;
+}
+
+.speaking {
+    height: 100vh;
+    top: 100vh;
+    background-color: #e9e3e3;
+    border-top: 3px solid rgb(3, 76, 110);
+    border-bottom: 3px solid rgb(3, 76, 110);
+}
+
+#sp {
+    height: 100vh;
+    width: 60vw;
+    transform: scaleX(-1);
+    clip-path: polygon(0 0, 0 98.5vh, 60vw 98.5vh, 50vw 0vh);
+}
+
+.sptitle {
+    position: absolute;
+    top: 215%;
+    left: 15%;
+}
+
+.spinfo {
+    position: absolute;
+    top: 225%;
+    left: 7%;
+    width: 30%;
+}
+
+.spbutton {
+    position: absolute;
+    top: 270%;
+    left: 18%;
+}
+
+#spbutn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(3, 76, 110);
+}
+
+#spbutn:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 241, 241);
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(9, 168, 241);
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+.writing {
+    height: 100vh;
+    background-color: #e9e3e3;
+    border-top: 3px solid rgb(3, 76, 110);
+    border-bottom: 6px solid rgb(3, 76, 110);
+}
+
+
+#wr {
+    height: 100vh;
+    width: 60vw;
+    clip-path: polygon(0 0, 0 98.5vh, 60vw 98.5vh, 50vw 0vh);
+}
+
+.wrtitle {
+    position: absolute;
+    top: 315%;
+    left: 72%;
+}
+
+.wrinfo {
+    position: absolute;
+    top: 325%;
+    left: 63%;
+    width: 30%;
+}
+
+.wrbutton {
+    position: absolute;
+    top: 370%;
+    left: 74%;
+}
+
+#wrbutn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(3, 76, 110);
+}
+
+#wrbutn:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 241, 241);
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: rgb(9, 168, 241);
+}
+
+.footer {
+    height: 50vh;
+    width: 100vw;
+    /* background-color: #e9e3e3; */
+}

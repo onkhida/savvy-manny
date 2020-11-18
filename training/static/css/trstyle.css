@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    overflow-y: scroll;    
+    overflow-x: hidden;    
+}
+
+.topsect {
+    position: absolute;
+    background-color: #e9e3e3;
+    height: 70vh;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+}
+
+#trfirst {
+    width: 100vw;
+    height: 70vh;
+    filter: blur(4px) brightness(70%);
+}
+
+.trtitle {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.content {
+    position: absolute;
+    background-color: #ffffff;
+    top: 70vh;
+    text-align: center;
+    width: 100vw;
+    margin-top: 5%;
+}
+
+.crcontent {
+    display: inline-block;
+}
+
+.trinfo {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    width: 40%;
+    color: #ffffff;
+}
+
+.trbutton {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+#trbutn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#trbutn:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: rgb(6, 161, 233);
+}
